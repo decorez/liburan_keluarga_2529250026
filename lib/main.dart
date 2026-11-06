@@ -253,6 +253,11 @@ class ContentScreen extends StatelessWidget {
                     ),
 
                     const SizedBox(height: 12),
+
+                    ElevatedButton(onPressed: (){},
+                     child: const Text('Rencanakan Kunjungan'),
+                     style: ButtonStyle(alignment: Alignment.center),
+                    ),
                   ],
                 ),
               )
